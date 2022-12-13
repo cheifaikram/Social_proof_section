@@ -41,8 +41,8 @@ body  {
 .cont{
     padding-top:10%;
     padding-bottom:4%;
-    padding-left: 13%;
-    padding-right: 9%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .row {
@@ -54,15 +54,13 @@ body  {
 
 .row_rate{
     display: flex;
-    height: 30%;
+    height: 35%;
     width: 76%;
     background-color: var(--Light-Grayish-Magenta);
     align-items:center;
     border-radius: 10px;
     margin-bottom: 4%;
-    padding-left: 2%;
-
-    
+    padding-left: 2%;   
 }
 .rate2{
     margin-left: 8%;
@@ -91,8 +89,8 @@ body  {
     background-color: var(--Very-Dark-Magenta);
     border-radius: 10px;
     height: 115%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3.5%;
+    padding-bottom: 8%;
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 0%;
@@ -103,8 +101,8 @@ body  {
     background-color: var(--Very-Dark-Magenta);
     border-radius: 10px;
     height: 115%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3.5%;
+    padding-bottom: 8%;
     padding-left: 0%;
     padding-right: 1%;
     margin-left: 2%;
@@ -116,8 +114,8 @@ body  {
     background-color: var(--Very-Dark-Magenta);
     border-radius: 10px;
     height: 115%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3.5%;
+    padding-bottom: 8%;
     padding-left: 0%;
     padding-right: 0%;
     margin-left: 2%;
@@ -126,19 +124,20 @@ body  {
 
 .title{
     color: var(--Very-Dark-Magenta);
-    padding-right: 30%;
+    padding-right: 10%;
     font-weight: var(--fs700);
-    font-size: 40px;
+    font-size: 50px;
     line-height: 1;
     letter-spacing: -2px;
     padding-bottom: 25px;
+    
    
 }
 
 .par{
     color: var(--Dark-Grayish-Magenta);
-    font-size:14.5px;
-    font-weight: var(--fs500);
+    font-size:14px;
+    font-weight: var(--fs700);
     line-height: 1.5; 
     padding-right: 0%;
 }
@@ -146,7 +145,7 @@ body  {
 .par_rate{
     color: var(--Very-Dark-Magenta);
     font-weight: var(--fs700);
-    font-size: 12px;
+    font-size: 14px;
    
 
 }
@@ -185,20 +184,21 @@ body  {
 .user_name{
     color: var(--Light-Grayish-Magenta);
     font-weight: var(--fs700);
-    font-size: 12px;
+    font-size: 14px;
     padding-top: 5%;
 }
 
 .user_status{
     color: var(--Soft-Pink);
-    font-size: 12px;
+    font-weight: var(--fs700);
+    font-size: 14px;
     padding-top: 5%;
 
 }
 
 .user_comment{
     color: var(--Light-Grayish-Magenta);
-    font-weight: var(--fs500);
+    font-weight: var(--fs700);
     font-size: 10px;
     margin-left: 12%;
     margin-right: 12%;
