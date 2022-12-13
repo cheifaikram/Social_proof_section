@@ -130,8 +130,6 @@ body  {
     line-height: 1;
     letter-spacing: -2px;
     padding-bottom: 25px;
-    
-   
 }
 
 .par{
@@ -146,8 +144,6 @@ body  {
     color: var(--Very-Dark-Magenta);
     font-weight: var(--fs700);
     font-size: 14px;
-   
-
 }
 
 .star{
@@ -203,4 +199,103 @@ body  {
     margin-left: 12%;
     margin-right: 12%;
     line-height: 20px;
+}
+
+@media only screen and (max-width:700px) {
+    body  {
+        background-color: var(--White);
+        background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+        background-position: top left, bottom right;
+        background-repeat: no-repeat, no-repeat;
+       
+    }
+
+    .row, .row_rate, .leftcolumn1 , .rightcolumn1, .leftcolumn2, .centercolumn2, .rightcolumn2  { 
+        display: flex;
+        flex-direction: column;  
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .cont{
+        display: flex;
+        flex-direction: column; 
+        padding-top:1%;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .cont1{
+        display: flex;
+        flex-direction: column; 
+        padding-top:1%;
+        padding: 0%;
+        margin: 0%;
+    }
+    
+
+    .title{
+        font-size: 35px;
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+    }
+
+    .par{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 10%;
+        text-align: center;
+        line-height: 2;
+        
+    }
+
+    .rightcolumn1{
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-bottom: 20%;
+        
+        
+    }
+    .row_rate{
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+
+    }
+    .star{
+        
+        padding-top:5% ;
+        padding-bottom:5% ;
+    }
+
+    .leftcolumn2{
+        margin-top: 125%;
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 3%;  
+    }
+
+    .centercolumn2, .rightcolumn2 {
+        margin-bottom: 5%;
+        padding-bottom: 10%;
+        padding-top: 10%;
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 3%;  
+    }
+
+    .user_comment{
+        
+        font-size: 12px;
+    }
+    
+
+    
+    
+
 }
