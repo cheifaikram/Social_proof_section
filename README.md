@@ -12,7 +12,7 @@ When realizing this project you will be able to:
 <h3>1- Desktop</h3>
 <IMG SRC="images/screenshot_desktop.png" style="width="520" height="340">
 <h3>2- Mobile</h3>
-<IMG SRC="images/screenshot_mobile.png" style="width="520" height="340">
+<IMG SRC="images/screenshot_mobile.png" style="width="720" height="340">
 
 <h3>Links</h3>
 <ul>
