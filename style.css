@@ -278,12 +278,21 @@ body  {
         margin-left: 4%;
         margin-right: 3%;  
     }
+    
     .card{
         margin-bottom: 6%;
     }
 
     .user_comment{
         font-size: 12px;
+    }
+
+    .att{
+        font-family: var(--Sapartan);
+        font-size: medium;
+        color: rgb(0, 0, 0);
+        padding-top: 30%;
+        text-align: center;
     }
     
 
