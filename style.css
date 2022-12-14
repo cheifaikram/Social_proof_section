@@ -203,10 +203,11 @@ body  {
 
 @media only screen and (max-width:700px) {
     body  {
-        background-color: var(--White);
         background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
-        background-position: top left, bottom right;
-        background-repeat: no-repeat, no-repeat;
+        background-position: top left , bottom right;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+    
        
     }
 
@@ -219,21 +220,10 @@ body  {
     }
 
     .cont{
-        display: flex;
-        flex-direction: column; 
         padding-top:1%;
         padding: 0%;
         margin: 0%;
     }
-
-    .cont1{
-        display: flex;
-        flex-direction: column; 
-        padding-top:1%;
-        padding: 0%;
-        margin: 0%;
-    }
-    
 
     .title{
         font-size: 35px;
@@ -288,9 +278,11 @@ body  {
         margin-left: 4%;
         margin-right: 3%;  
     }
+    .card{
+        margin-bottom: 6%;
+    }
 
     .user_comment{
-        
         font-size: 12px;
     }
     
