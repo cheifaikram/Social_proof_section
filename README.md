@@ -8,7 +8,7 @@ When realizing this project you will be able to:
   <li>View the optimal layout depending on their device's screen size.</li>
   <li>See hover and focus states for interactive elements.</li>
 </ul>
-<h3>Screenshot</h3>
+<h3>Screenshot</h3> 
 <h3>1- Desktop</h3>
 <IMG SRC="images/screenshot_desktop.png" style="width="520" height="340">
 <h3>2- Mobile</h3>
